@@ -34,7 +34,7 @@ jobs:
     - name: check the PWD
       run: pwd
     - name: Build with Maven
-      run: mvn clean install
+      run: cd demo-2 && mvn clean install
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
