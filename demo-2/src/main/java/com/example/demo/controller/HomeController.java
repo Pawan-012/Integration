@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins="*")
 public class HomeController {
 	@GetMapping("/meth01")
-	public String meth() {
+	public String method() {
 		return "Hello";
 	}
 }
