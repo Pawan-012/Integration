@@ -27,6 +27,8 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
+    - name: check the PWD
+      run: pwd
     - name: changing the directory
       run: cd demo-2
     - name: check the PWD
