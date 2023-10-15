@@ -29,6 +29,8 @@ jobs:
         cache: maven
     - name: changing the directory
       run: cd demo-2
+    - name: check the PWD
+      run: pwd
     - name: Build with Maven
       run: mvn clean install
 
